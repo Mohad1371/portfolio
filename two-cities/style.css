@@ -1,0 +1,161 @@
+*,
+html {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+
+}
+
+body {
+    background-color: rgb(40, 54, 91)
+}
+#container {
+    width: 100%;
+    padding-left: 40px;
+    margin: 0 auto;
+    height: 100vh;
+    /* viewport height */
+}
+
+#logo {
+    width: 2rem;
+    padding-top: 6px;
+    position: relative;
+    z-index: 10000;
+}
+a {
+    text-decoration: none;
+}
+
+#menu {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+}
+
+#menu li {
+    display: inline-block;
+    color: rgb(0, 0, 78);
+    font-size: 1.2em;
+    line-height: 60px;
+    padding-right: 30px;
+    z-index: 3000;
+}
+
+#menu li:hover {
+    color: rgb(172, 0, 0);
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    color: rgb(0, 0, 78);
+    line-height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+h2 {
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 5px;
+}
+form {
+    width: 500px;
+    margin: 60px auto;
+    background-color: rgb(30, 46, 90);
+}
+
+label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+input,
+textarea {
+    display: block;
+    border: 2px solid;
+    border-color: rgb(173, 0, 0);
+    border-radius: 4px;
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: inherit;
+    font-size: 1.5rem;
+    color: rgb(78, 0, 0);
+    padding: 1em;
+
+}
+
+input {
+    height: 15px;
+}
+
+input:focus {
+    background-color: rgb(252, 207, 207);
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+}
+
+textarea:focus {
+    background-color: rgb(252, 207, 207);
+}
+
+input [type=radio],
+input [type=checkbox] {
+    transform: scale(1.5);
+}
+
+.radio,
+.checkbox {
+    width: auto;
+    display: inline;
+}
+
+.select {
+    width: auto;
+    display: inline-block;
+    border: 2px solid rgb(173, 0, 0);
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding: 1em;
+}
+
+.submit-button,
+.reset-button {
+    border: 2px solid;
+    border-color: #cafae0;
+    border-radius: 7px;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #cafae0;
+    padding: 0.6em 2em;
+}
+
+.submit-button:hover,
+.reset-button:hover {
+    background-color: rgb(173, 0, 0);
+}

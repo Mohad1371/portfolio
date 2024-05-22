@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyoto</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <style>
+        *,
+        html {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        body {
+            background-color: rgb(40, 54, 91);
+        }
+
+        #container {
+            width: 100%;
+            padding-left: 40px;
+            margin: 0 auto;
+            height: 100vh;
+            /* viewport height */
+        }
+
+        #logo {
+            width: 2rem;
+            padding-top: 6px;
+            position: relative;
+            z-index: 10000;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+
+        #menu {
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            width: 100%;
+            height: 60px;
+            text-align: right;
+            background-color: rgb(255, 255, 255);
+            z-index: 1000;
+        }
+
+        #menu li {
+            display: inline-block;
+            color: rgb(0, 0, 78);
+            font-size: 1.2em;
+            line-height: 60px;
+            padding-right: 30px;
+            z-index: 3000;
+        }
+
+        #menu li:hover {
+            color: rgb(172, 0, 0);
+        }
+
+
+        a {
+            text-decoration: none;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        #combine {
+            display: flex;
+            width: 90vw;
+            margin: 0 auto;
+            flex-direction: row;
+        }
+
+        #one,
+        #two,
+        #three {
+            display: flex;
+            flex-direction: column;
+            width: 30vw;
+            margin: 20px auto;
+
+        }
+
+        #one .text,
+        #two .text,
+        #three .text {
+           margin-top: 20px;
+           margin-left: 18px;
+           margin-bottom: 60px;
+            width: 25vw;
+            color: white;
+            text-align: center;
+        }
+
+        #one .sub_text,
+        #two .sub_text,
+        #three .sub_text {
+            width: 25vw;
+            margin-left: 8px;
+            color: white;
+            text-align: left;
+            line-height: 2em;
+        }
+
+
+        footer {
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            text-align: center;
+            width: 100%;
+            height: 40px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 78);
+            line-height: 40px;
+        }
+
+        .column {
+            width: 370px;
+            margin: 30px auto;
+            margin-left: 25px;
+            border: 3px solid rgba(255, 255, 255, 0.8);
+        }
+
+        .sub_text {
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- id is the nickname of this div element -->
+    <div id="container">
+        <img src="./images/logo.png" alt="Logo" id="logo">
+        <ul id="menu">
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="paris.html">
+                <li>Paris</li>
+            </a>
+            <a href="kyoto.html">
+                <li>Kyoto</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <div id="combine">
+            <div id="one">
+                <img src="images/senso ji temple *.webp" alt="senso ji temple" class="column">
+                <div class="text">
+                    <h2 class="center">Senso Ji Temple</h2>
+                    <p class="sub_text">Senso-ji Temple, located in Asakusa, Tokyo, is the city's oldest and
+                        a significant Buddhist temple dedicated to Kannon,
+                        the goddess of mercy. <br><br> The iconic Thunder Gate,
+                        Nakamise-dori shopping street, and the main hall with its Five-Storied
+                        Pagoda make Senso-ji a cultural and historical symbol of Tokyo.
+                        It attracts millions of visitors annually, offering a glimpse
+                        into Japan's rich traditions and religious practices.</p>
+                </div>
+            </div>
+            <div id="two">
+                <img src="images/kyoto city **.avif" alt="kyoto city" class="column">
+                <div class="text">
+                    <h2 class="center">Kyoto City view</h2>
+                    <p class="sub_text">Kyoto boasts a captivating cityscape blending modernity
+                        with historical charm. From vantage points like Kyoto Tower, you can witness
+                        a panorama that includes traditional temples, historic structures, and the
+                        scenic Higashiyama Mountains. <br><br>The juxtaposition of ancient and contemporary
+                        elements defines Kyoto's unique and picturesque urban landscape.</p>
+                </div>
+            </div>
+            <div id="three">
+                <img src="images/cherry blossoms.webp" alt="cherry blossoms" class="column">
+                <div class="text">
+                    <h2 class="center">Cherry Blossoms</h2>
+                    <p class="sub_text">Kyoto's famed cherry blossom season, or "Sakura," paints the city in hues of
+                        pink and white from late March to early April. Prime spots like Maruyama Park,
+                        the Philosopher's Path, and Kiyomizu-dera offer enchanting views. <br><br>Locals and
+                        visitors partake in traditional activities like hanami picnics, creating a magical
+                        and ephemeral atmosphere in Kyoto.</p>
+                </div>
+            </div>
+        </div>
+        <footer>copyright &copy; 2023 DreamWeaver course</footer>
+</body>
+
+</html>
