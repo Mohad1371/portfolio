@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <style>
+        *,
+        html {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        body {
+            background: url(./images/top.png) center center fixed;
+            background-size: cover;
+        }
+
+        #container {
+            width: 100%;
+            padding-left: 40px;
+            margin: 0 auto;
+            height: 100vh;
+            /* viewport height */
+        }
+
+        #logo {
+            width: 2rem;
+            padding-top: 6px;
+            position: relative;
+            z-index: 10000;
+        }
+
+
+        #first_title {
+            width: 50%;
+            margin: 30vh 50px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 2em;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        #second_title {
+            width: 1000px;
+            margin: -29vh 250px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 7em;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #menu {
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            width: 100%;
+            height: 60px;
+            text-align: right;
+            z-index: 1000;
+            background-color: rgb(255, 255, 255);
+        }
+
+        #menu li {
+            display: inline-block;
+            color: rgb(0, 0, 78);
+            font-size: 1.2em;
+            line-height: 60px;
+            padding-right: 30px;
+            z-index: 3000;
+        }
+
+        #menu li:hover {
+            color: rgb(172, 0, 0);
+        }
+
+
+        footer {
+            position: fixed;
+            bottom: 0px;
+            text-align: center;
+            width: 100%;
+            height: 40px;
+            color: rgb(0, 0, 78);
+            line-height: 40px;
+            background-color: rgb(255, 255, 255);
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- id is the nickname of this div element -->
+    <div id="container">
+        <img src="./images/logo.png" alt="Logo" id="logo">
+        <ul id="menu">
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="paris.html">
+                <li>Paris</li>
+            </a>
+            <a href="kyoto.html">
+                <li>Kyoto</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <h1 id="first_title">Welcome to</h1>
+        <p id="second_title">TWO CITIES</p>
+    </div>
+    <footer>copyright &copy; 2023 DreamWeaver course</footer>
+</body>
+
+</html>

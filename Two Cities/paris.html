@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <style>
+        *,
+        html {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        body {
+            background-color: rgb(40, 54, 91)
+        }
+
+        #container {
+            width: 100%;
+            padding-left: 40px;
+            margin: 0 auto;
+            height: 100vh;
+            /* viewport height */
+        }
+
+        #logo {
+            width: 2rem;
+            padding-top: 6px;
+            position: relative;
+            z-index: 10000;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        #menu {
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            width: 100%;
+            height: 60px;
+            text-align: right;
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        #menu li {
+            display: inline-block;
+            color: rgb(0, 0, 78);
+            font-size: 1.2em;
+            line-height: 60px;
+            padding-right: 30px;
+        }
+
+        #menu li:hover {
+            color: rgb(172, 0, 0);
+        }
+
+        #top,
+        #bottom {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        #top {
+            margin-top: 40px;
+        }
+
+        #top .city,
+        #bottom .city {
+            width: 50%;
+            max-width: 500px;
+            height: auto;
+            box-sizing: border-box;
+            border: 3px solid rgba(255, 255, 255, 0.8);
+            margin-right: 20px;
+            /* Space between image and text */
+        }
+
+        .text {
+            padding: 20px;
+            color: white;
+            width: 50%;
+        }
+
+        @media (max-width: 768px) {
+
+            #top,
+            #bottom {
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+
+            #top .city,
+            #bottom .city,
+            .text {
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .sub_text {
+            margin-top: 20px;
+            line-height: 2em;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0px;
+            text-align: center;
+            width: 100%;
+            height: 40px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 78);
+            line-height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- id is the nickname of this div element -->
+    <div id="container">
+        <img src="./images/logo.png" alt="Logo" id="logo">
+        <ul id="menu">
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="paris.html">
+                <li>Paris</li>
+            </a>
+            <a href="kyoto.html">
+                <li>Kyoto</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <div id="top">
+            <img src="./images/paris.jpeg" alt="paris Eiffel" class="city">
+            <div class="text">
+                <h2>Paris Eiffel</h2>
+                <p class="sub_text">The Eiffel Tower is an iconic landmark in Paris, France.
+                    Completed in 1889, it's a wrought-iron masterpiece and one of the world's most recognizable
+                    structures.
+                    Standing at 324 meters (1,063 feet), it offers breathtaking views of Paris from its observation
+                    decks.
+                    The Eiffel Tower is a symbol of Parisian elegance and attracts millions of visitors annually.</p>
+            </div>
+        </div>
+        <div id="bottom">
+            <img src="./images/louvre paris 2.jpeg" alt="paris Louvre" class="city">
+            <div class="text">
+                <h2>Paris Louvre</h2>
+                <p class="sub_text">The Louvre is a famous museum in Paris, housed in the historic Louvre Palace.
+                    It's renowned for its vast art collection, spanning from ancient civilizations to the 19th century.
+                    Notable works include the "Mona Lisa" and "Liberty Leading the People." The museum features
+                    paintings,
+                    sculptures, decorative arts, and historical artifacts across various departments. With millions of
+                    annual visitors,
+                    the Louvre is a cultural landmark and a must-visit destination.</p>
+            </div>
+        </div>
+    </div>
+    <footer>copyright &copy; 2023 DreamWeaver course</footer>
+</body>
+
+</html>
