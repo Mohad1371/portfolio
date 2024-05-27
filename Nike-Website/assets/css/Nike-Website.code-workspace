@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Bootstrap8"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Nike-Website"
+	}
+}
