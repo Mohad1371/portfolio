@@ -449,7 +449,7 @@ section {
   position: absolute;
   top: 30px;
   color: #eef0f2;
-  left: -15;
+  left: 0;
   right: 0;
   z-index: 1;
   font-weight: 700;
