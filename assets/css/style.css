@@ -383,7 +383,8 @@ h6 {
 
 @media (max-width: 575px) {
   #hero {
-    background-attachment: center center fixed;
+    background-attachment: scroll;
+    background-position: center center;
     background-size: cover;
   }
 
