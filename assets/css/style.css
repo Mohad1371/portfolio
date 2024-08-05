@@ -88,11 +88,11 @@ header .logo {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 13px; /* Adjust as needed */
+  padding: 10px; /* Adjust as needed */
 }
 
 header .logo img {
-  max-height: 30px; /* Adjust as needed */
+  max-height: 40px; /* Adjust as needed */
 }
 
 /*--------------------------------------------------------------
