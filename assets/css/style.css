@@ -743,8 +743,8 @@ section {
   margin-bottom: 20px;
   padding-left: 0;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap; /* Allow wrapping of filter items */
-  justify-content: center; /* Center the filter items */
 }
 
 .portfolio #portfolio-flters li {
@@ -759,8 +759,6 @@ section {
   color: #102e49;
   transition: all 0.3s ease-in-out;
   border: 2px solid #fff;
-  width: calc(33.33% - 20px); /* Ensure three items per row with margin */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
   text-align: center; /* Center the text */
 }
 
@@ -856,48 +854,21 @@ section {
 }
 
 /* Media Queries for Responsive Design */
-@media (max-width: 1200px) {
-  .portfolio .portfolio-item {
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 992px) {
-  .portfolio .portfolio-item {
-    margin-bottom: 15px;
-  }
-}
-
 @media (max-width: 768px) {
   .portfolio #portfolio-flters {
-    display: flex;
-    flex-wrap: wrap; /* Ensure items wrap */
-    justify-content: center;
+    justify-content: space-around; /* Adjust to ensure items take up available space */
   }
 
   .portfolio #portfolio-flters li {
-    margin: 5px;
-    font-size: 14px; /* Adjust font size for smaller screens */
-    padding: 5px 8px;
-    width: calc(33.33% - 10px); /* Ensure three items per row with margin */
-  }
-
-  .portfolio .portfolio-item .portfolio-info {
-    left: 10px;
-    right: 10px;
-  }
-
-  .portfolio .portfolio-item .portfolio-info .preview-link,
-  .portfolio .portfolio-item .portfolio-info .details-link {
-    right: 30px;
+    width: calc(33.33% - 20px); /* Ensure three items per row */
+    margin: 10px 5px;
   }
 }
 
 @media (max-width: 576px) {
   .portfolio #portfolio-flters li {
-    font-size: 12px; /* Further adjust font size for very small screens */
-    padding: 4px 6px;
-    width: calc(50% - 10px); /* Adjust to two items per row for very small screens */
+    width: calc(50% - 10px); /* Ensure two items per row for smaller screens */
+    margin: 10px 5px;
   }
 
   .portfolio .portfolio-item .portfolio-info {
