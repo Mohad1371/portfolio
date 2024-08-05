@@ -84,16 +84,6 @@ h6 {
   background: rgba(0, 20, 39, 0.8);
 }
 
-header .logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px; /* Adjust as needed */
-}
-
-header .logo img {
-  max-height: 50px; /* Adjust as needed */
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -485,6 +475,22 @@ section {
   .section-title span {
     font-size: 38px;
   }
+}
+
+.hero-container {
+  position: relative;
+  text-align: center;
+}
+
+.hero-container .logo {
+  position: absolute;
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero-container .logo img {
+  max-height: 50px; 
 }
 
 /*--------------------------------------------------------------
