@@ -853,7 +853,7 @@ section {
   position: relative;
 }
 
-/* Media Queries for Responsive Design */
+
 @media (max-width: 768px) {
   .portfolio #portfolio-flters {
     justify-content: space-around; /* Adjust to ensure items take up available space */
