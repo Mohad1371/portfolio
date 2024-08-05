@@ -743,14 +743,14 @@ section {
   margin-bottom: 20px;
   padding-left: 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping of filter items */
+  justify-content: center; /* Center the filter items */
 }
 
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  margin: 0 10px 10px 10px;
+  margin: 10px;
   font-size: 15px;
   font-weight: 600;
   line-height: 1;
@@ -759,6 +759,9 @@ section {
   color: #102e49;
   transition: all 0.3s ease-in-out;
   border: 2px solid #fff;
+  width: calc(33.33% - 20px); /* Ensure three items per row with margin */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  text-align: center; /* Center the text */
 }
 
 .portfolio #portfolio-flters li:hover,
@@ -767,6 +770,7 @@ section {
   border-color: #bf0603;
 }
 
+/* Additional CSS */
 .portfolio .portfolio-item {
   margin-bottom: 30px;
   position: relative;
@@ -851,7 +855,7 @@ section {
   position: relative;
 }
 
-
+/* Media Queries for Responsive Design */
 @media (max-width: 1200px) {
   .portfolio .portfolio-item {
     margin-bottom: 20px;
@@ -875,6 +879,7 @@ section {
     margin: 5px;
     font-size: 14px; /* Adjust font size for smaller screens */
     padding: 5px 8px;
+    width: calc(33.33% - 10px); /* Ensure three items per row with margin */
   }
 
   .portfolio .portfolio-item .portfolio-info {
@@ -892,6 +897,7 @@ section {
   .portfolio #portfolio-flters li {
     font-size: 12px; /* Further adjust font size for very small screens */
     padding: 4px 6px;
+    width: calc(50% - 10px); /* Adjust to two items per row for very small screens */
   }
 
   .portfolio .portfolio-item .portfolio-info {
