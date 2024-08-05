@@ -84,6 +84,17 @@ h6 {
   background: rgba(0, 20, 39, 0.8);
 }
 
+header .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px; /* Adjust as needed */
+}
+
+header .logo img {
+  max-height: 50px; /* Adjust as needed */
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
