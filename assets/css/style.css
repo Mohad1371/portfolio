@@ -73,10 +73,6 @@ h6 {
   transition: all 0.5s;
   height: 80px;
   background: rgba(0, 20, 39, 0.8);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
 }
 
 #header.header-transparent {
@@ -89,11 +85,14 @@ h6 {
 }
 
 header .logo {
-  position: static;
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  padding: 0px; /* Adjust as needed */
 }
 
 header .logo img {
-  max-height: 40px; /* Adjust as needed */
+  max-height: 35px; /* Adjust as needed */
 }
 
 
@@ -228,7 +227,7 @@ header .logo img {
   color: #fff;
   font-size: 28px;
   cursor: pointer;
-  display: block;
+  display: none;
   line-height: 0;
   transition: 0.5s;
 }
@@ -392,15 +391,14 @@ header .logo img {
 }
 
 
-#hero .social-media {
-  position: static; /* Change from absolute positioning */
+.social-media {
+  position: absolute;
+  top: 21px;
+  right: 20px;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  margin-top: -20px; /* Add margin for spacing */
-  margin-bottom: 10PX;
   gap: 10px;
+  z-index: 1000;
 }
-
 
 .social-icon {
   font-size: 18px;
