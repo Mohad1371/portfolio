@@ -454,32 +454,6 @@ header .logo img {
   }
 }
 
-  #hero h2 {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-
-@-webkit-keyframes up-down {
-  0% {
-    transform: translateY(5px);
-  }
-
-  100% {
-    transform: translateY(-5px);
-  }
-}
-
-@keyframes up-down {
-  0% {
-    transform: translateY(5px);
-  }
-
-  100% {
-    transform: translateY(-5px);
-  }
-}
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
