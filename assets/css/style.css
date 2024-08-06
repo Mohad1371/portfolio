@@ -92,7 +92,7 @@ header .logo {
 }
 
 header .logo img {
-  max-height: 35px; /* Adjust as needed */
+  max-height: 30px; /* Adjust as needed */
 }
 
 
@@ -390,16 +390,6 @@ header .logo img {
   color: #ffb727;
 }
 
-/* Logo and Social Media */
-.hero-logo {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-}
-
-.hero-logo img {
-  width: 30px; /* Adjust size as needed */
-}
 
 .social-media {
   position: absolute;
