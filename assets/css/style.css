@@ -95,10 +95,6 @@ header .logo img {
   max-height: 35px; /* Adjust as needed */
 }
 
-body:not(:has(#hero)) header .logo {
-  display: none;
-}
-
 .navbar {
   padding: 20px;
 }
