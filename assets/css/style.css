@@ -86,9 +86,9 @@ h6 {
 
 header .logo {
   position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px; /* Adjust as needed */
+  top: 20px;
+  left: 30px;
+  padding: 0px; /* Adjust as needed */
 }
 
 header .logo img {
@@ -393,10 +393,11 @@ header .logo img {
 
 .social-media {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  top: 20px;
+  right: 30px;
   display: flex;
   gap: 10px;
+  z-index: 1000;
 }
 
 .social-icon {
