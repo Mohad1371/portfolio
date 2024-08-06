@@ -95,7 +95,7 @@ header .logo img {
   max-height: 35px; /* Adjust as needed */
 }
 
-.home-page header .logo {
+body:not(:has(#hero)) header .logo {
   display: none;
 }
 
