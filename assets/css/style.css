@@ -391,14 +391,15 @@ header .logo img {
 }
 
 
-.social-media {
-  position: absolute;
-  top: 21px;
-  right: 20px;
+#hero .social-media {
+  position: static; /* Change from absolute positioning */
   display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-top: -20px; /* Add margin for spacing */
+  margin-bottom: 10PX;
   gap: 10px;
-  z-index: 1000;
 }
+
 
 .social-icon {
   font-size: 18px;
