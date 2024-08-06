@@ -92,16 +92,15 @@ header .logo {
 }
 
 header .logo img {
-  max-height: 40px; /* Adjust as needed */
+  max-height: 35px; /* Adjust as needed */
 }
 
 .home-page header .logo {
   display: none;
 }
 
-/* Navigation Menu styles remain unchanged */
 .navbar {
-  padding: 0;
+  padding: 20px;
 }
 
 /*--------------------------------------------------------------
