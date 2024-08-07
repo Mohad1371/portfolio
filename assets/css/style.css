@@ -398,6 +398,7 @@ header .logo img {
   display: flex;
   justify-content: center; /* Center horizontally */
   margin-top: 0px; /* Space between h2 and social media icons */
+  margin-bottom: 10px;
   gap: 10px;
 }
 
