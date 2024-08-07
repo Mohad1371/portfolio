@@ -73,6 +73,10 @@ h6 {
   transition: all 0.5s;
   height: 80px;
   background: rgba(0, 20, 39, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
 #header.header-transparent {
@@ -107,15 +111,16 @@ header .logo img {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .navbar ul {
+  display: flex;
   margin: 0;
   padding: 0;
-  display: flex;
   list-style: none;
-  align-items: center;
 }
 
 .navbar li {
@@ -392,12 +397,11 @@ header .logo img {
 
 
 .social-media {
-  position: absolute;
-  top: 21px;
-  right: 20px;
+  position: relative; /* Change from absolute to relative */
   display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-top: -30px; /* Space between h2 and social media icons */
   gap: 10px;
-  z-index: 1000;
 }
 
 .social-icon {
