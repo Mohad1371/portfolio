@@ -89,9 +89,6 @@ h6 {
 }
 
 header .logo {
-  position: absolute;
-  top: 13px;
-  left: 20px;
   padding: 0px; /* Adjust as needed */
 }
 
@@ -400,7 +397,7 @@ header .logo img {
   position: relative; /* Change from absolute to relative */
   display: flex;
   justify-content: center; /* Center horizontally */
-  margin-top: -30px; /* Space between h2 and social media icons */
+  margin-top: 0px; /* Space between h2 and social media icons */
   gap: 10px;
 }
 
