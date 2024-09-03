@@ -674,7 +674,7 @@ section {
   .about .image {
     background-size: contain; /* Ensure the image is fully visible */
     min-height: 300px; /* Further adjust the height for even smaller screens */
-    padding: 10px; /* Increase padding for smaller screens */
+    padding: 10px 10px; /* Increase padding for smaller screens */
   }
 }
 
