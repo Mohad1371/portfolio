@@ -664,7 +664,7 @@ section {
 
 @media (max-width: 768px) {
   .about .image {
-    background-size: cover; /* Adjust the image to fit within its container */
+    background-size: contain; /* Adjust the image to fit within its container */
     min-height: 400px; /* Adjust the height for smaller screens */
     padding: 5px; /* Add padding around the image */
   }
@@ -672,7 +672,7 @@ section {
 
 @media (max-width: 575px) {
   .about .image {
-    background-size: cover; /* Ensure the image is fully visible */
+    background-size: contain; /* Ensure the image is fully visible */
     min-height: 300px; /* Further adjust the height for even smaller screens */
     padding: 10px; /* Increase padding for smaller screens */
   }
