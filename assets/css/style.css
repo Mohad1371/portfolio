@@ -666,7 +666,7 @@ section {
   .about .image {
     background-size: contain; /* Adjust the image to fit within its container */
     min-height: 400px; /* Adjust the height for smaller screens */
-    padding: 5px; /* Add padding around the image */
+    padding: 5px 5px; /* Add padding around the image */
   }
 }
 
