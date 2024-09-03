@@ -662,6 +662,18 @@ section {
   box-shadow: 0 0 30px rgba(75, 94, 112, 0.6);
 }
 
+@media (max-width: 768px) {
+  .about .image {
+    padding: 20px 10px; /* Add padding around the image */
+  }
+}
+
+@media (max-width: 575px) {
+  .about .image {
+    padding: 30px 10px; /* Increase padding for even smaller screens */
+  }
+}
+
 
 .about .skills-content {
   margin-top: 15px;
