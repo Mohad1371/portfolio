@@ -665,18 +665,18 @@ section {
 
 @media (max-width: 768px) {
   .about .image {
-    min-height: 400px; /* Reduce height on smaller screens */
-    margin: 10px; /* Add moderate white space around the image container */
-    background-size: cover; /* Ensure the image covers the container without too much extra space */
+    background-size: cover;
+    margin: 20px; /* Add margin around the image container */
+    min-height: 400px; /* Adjust the height for smaller screens */
   }
 }
 
 /* For smaller mobile devices */
 @media (max-width: 575px) {
   .about .image {
-    min-height: 300px; /* Further reduce height for small devices */
-    margin: 10px; /* Maintain consistent white space */
-    background-size: cover; /* Keep the image covering the container */
+    
+    margin: 30px; /* Increase the margin for even smaller screens */
+    min-height: 300px; /* Further adjust the height */
   }
 }
 
