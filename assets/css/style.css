@@ -665,6 +665,7 @@ section {
 
 @media (max-width: 768px) {
   .about .image {
+    background-size: cover;
     margin: 20px; /* Add margin around the image container */
     min-height: 400px; /* Adjust the height for smaller screens */
   }
@@ -673,6 +674,7 @@ section {
 /* For smaller mobile devices */
 @media (max-width: 575px) {
   .about .image {
+    background-size: cover;
     margin: 30px; /* Increase the margin for even smaller screens */
     min-height: 300px; /* Further adjust the height */
   }
