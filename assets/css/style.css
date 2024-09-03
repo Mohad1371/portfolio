@@ -662,21 +662,15 @@ section {
   box-shadow: 0 0 30px rgba(75, 94, 112, 0.6);
 }
 
-
 @media (max-width: 768px) {
   .about .image {
-    background-size: cover;
-    margin: 20px; /* Add margin around the image container */
-    min-height: 400px; /* Adjust the height for smaller screens */
+    margin: 30px; /* Add padding around the image */
   }
 }
 
-/* For smaller mobile devices */
 @media (max-width: 575px) {
   .about .image {
-    
-    margin: 30px; /* Increase the margin for even smaller screens */
-    min-height: 300px; /* Further adjust the height */
+    margin: 40px; /* Increase padding for even smaller screens */
   }
 }
 
