@@ -664,13 +664,15 @@ section {
 
 @media (max-width: 768px) {
   .about .image {
-    margin: 30px 0px 30px; /* Add padding around the image */
+    margin-left: 30px; /* Add padding around the image */
+    margin-right: 30px;
   }
 }
 
 @media (max-width: 575px) {
   .about .image {
-    margin: 40px 0px 40px; /* Increase padding for even smaller screens */
+    margin-left: 40px; /* Increase padding for even smaller screens */
+    margin-right: 40px;
   }
 }
 
