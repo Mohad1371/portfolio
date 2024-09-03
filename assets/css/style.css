@@ -662,19 +662,6 @@ section {
   box-shadow: 0 0 30px rgba(75, 94, 112, 0.6);
 }
 
-@media (max-width: 768px) {
-  .about .image {
-    margin-left: 30px; /* Add padding around the image */
-    margin-right: 30px;
-  }
-}
-
-@media (max-width: 575px) {
-  .about .image {
-    margin-left: 40px; /* Increase padding for even smaller screens */
-    margin-right: 40px;
-  }
-}
 
 .about .skills-content {
   margin-top: 15px;
