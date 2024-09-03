@@ -656,7 +656,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/me2*.png") center center no-repeat;
+  background: url("../img/me*.jpg") center center no-repeat;
   background-size: cover;
   min-height: 600px;
   box-shadow: 0 0 30px rgba(75, 94, 112, 0.6);
