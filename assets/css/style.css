@@ -662,6 +662,22 @@ section {
   box-shadow: 0 0 30px rgba(75, 94, 112, 0.6);
 }
 
+@media (max-width: 768px) {
+  .about .image {
+    background-size: contain; /* Adjust the image to fit within its container */
+    min-height: 400px; /* Adjust the height for smaller screens */
+    padding: 20px; /* Add padding around the image */
+  }
+}
+
+@media (max-width: 575px) {
+  .about .image {
+    background-size: contain; /* Ensure the image is fully visible */
+    min-height: 300px; /* Further adjust the height for even smaller screens */
+    padding: 30px; /* Increase padding for smaller screens */
+  }
+}
+
 .about .skills-content {
   margin-top: 15px;
 }
