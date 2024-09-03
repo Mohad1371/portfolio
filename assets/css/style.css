@@ -654,20 +654,21 @@ section {
 .about .content .count-box a:hover {
   color: #82909c;
 }
-
 .about .image {
   background: url("../img/me2*.png") center center no-repeat;
-  background-size: cover;
+  background-size: contain; /* Change to 'contain' to ensure the entire image is visible */
   min-height: 600px;
   box-shadow: 0 0 30px rgba(75, 94, 112, 0.6);
+  margin: 0 auto; /* Center the container on the page */
 }
 
-
+/* For tablets and small devices */
 @media (max-width: 768px) {
   .about .image {
     min-height: 400px; /* Reduce height on smaller screens */
-    margin: 10px; /* Add moderate white space around the image container */
-    background-size: cover; /* Ensure the image covers the container without too much extra space */
+    background-size: contain; /* Keep the entire image visible */
+    background-position: center; /* Ensure the image is centered */
+    margin: 20px auto; /* Add moderate white space around the image container */
   }
 }
 
@@ -675,8 +676,9 @@ section {
 @media (max-width: 575px) {
   .about .image {
     min-height: 300px; /* Further reduce height for small devices */
-    margin: 10px; /* Maintain consistent white space */
-    background-size: cover; /* Keep the image covering the container */
+    background-size: contain; /* Keep the entire image visible */
+    background-position: center; /* Center the image */
+    margin: 20px auto; /* Add consistent white space */
   }
 }
 
